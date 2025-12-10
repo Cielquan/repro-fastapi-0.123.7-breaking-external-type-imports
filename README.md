@@ -1,5 +1,7 @@
 ## Information
 
+See: https://github.com/fastapi/fastapi/discussions/14464
+
 - Python version: 3.12.12
 - OS: Ubuntu 22.04
 - Good `fastapi` version: 0.123.6
