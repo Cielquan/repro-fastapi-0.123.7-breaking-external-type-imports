@@ -24,4 +24,5 @@ See: https://github.com/fastapi/fastapi/discussions/14464
 
 ## Notes
 
-Original repro setup closer to my real application is on branch `example-close-to-real-app`.
+- Original repro setup closer to my real application is on branch `example-close-to-real-app`.
+- The current version is coming from this comment: https://github.com/fastapi/fastapi/discussions/14464#discussioncomment-15217544
