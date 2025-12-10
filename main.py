@@ -4,18 +4,15 @@ import typing as t
 
 import fastapi
 
-from api.dependencies.config import get_settings
+from config import get_settings
 
 if t.TYPE_CHECKING:
     import config
 
+app = fastapi.FastAPI()
 
-router = fastapi.APIRouter(tags=["Dummy"], prefix="/dummy")
-
-
-@router.get("/")
+@app.get("/")
 async def dummy(
     settings: config.Settings = fastapi.Depends(get_settings),
 ) -> str:
-    """Check API status."""
     return "Dummy"
