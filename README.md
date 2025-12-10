@@ -1,3 +1,5 @@
+**Fixed in 0.124.2!**
+
 ## Information
 
 See: https://github.com/fastapi/fastapi/discussions/14464
